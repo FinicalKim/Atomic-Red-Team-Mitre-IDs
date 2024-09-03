@@ -4,19 +4,21 @@
 
 This Python script is designed to extract MITRE ATT&CK technique IDs from a given webpage, specifically from the MITRE ATT&CK framework's group pages. The script parses the HTML content of the page, locates the table containing technique information, and extracts both technique and sub-technique IDs (if available).
 
-Requirements
-Python 3.x
-requests library
-beautifulsoup4 library
+### Requirements
+
+- Python 3.x
+- 'requests' library
+- 'beautifulsoup4' library'
 Installation of Required Libraries
 You can install the required Python libraries using pip:
 
 bash
 
-  pip install requests beautifulsoup4
+  'pip install requests beautifulsoup4'
 
   
 Usage
+
   Download or Clone the Repository:
 
 Ensure you have the script file (extract_technique_ids.py) in your working directory.
