@@ -10,10 +10,12 @@ Installation of Required Libraries
 You can install the required Python libraries using pip:
 
 bash
-Copy code
-pip install requests beautifulsoup4
+
+  pip install requests beautifulsoup4
+
+  
 Usage
-Download or Clone the Repository:
+  Download or Clone the Repository:
 
 Ensure you have the script file (extract_technique_ids.py) in your working directory.
 Run the Script:
