@@ -9,7 +9,9 @@ This Python script is designed to extract MITRE ATT&CK technique IDs from a give
 - Python 3.x
 - 'requests' library
 - 'beautifulsoup4' library'
-Installation of Required Libraries
+
+### Installation of Required Libraries
+
 You can install the required Python libraries using pip:
 
 bash
@@ -19,21 +21,25 @@ bash
   
 Usage
 
-  Download or Clone the Repository:
+1. Download or Clone the Repository:
 
 Ensure you have the script file (extract_technique_ids.py) in your working directory.
-Run the Script:
+
+2. Run the Script:
 
 The script takes one command-line argument, the URL of the MITRE ATT&CK group page from which you want to extract technique IDs.
 Example usage:
 
 bash
-Copy code
-python extract_technique_ids.py "https://attack.mitre.org/groups/G1017/"
-Output:
+
+'python extract_technique_ids.py "https://attack.mitre.org/groups/G1017/"'
+
+3. Output:
 
 The script will print the extracted technique IDs to the console. Only valid MITRE ATT&CK IDs following the format Txxxx or Txxxx.xxx will be included.
-How It Works
+
+### How It Works
+
 Fetch the Webpage:
 
 The script uses the requests library to fetch the HTML content of the provided URL.
