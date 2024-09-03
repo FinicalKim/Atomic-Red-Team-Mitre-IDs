@@ -1,5 +1,7 @@
-MITRE ATT&CK Technique ID Extractor
-Overview
+# MITRE ATT&CK Technique ID Extractor
+
+### Overview
+
 This Python script is designed to extract MITRE ATT&CK technique IDs from a given webpage, specifically from the MITRE ATT&CK framework's group pages. The script parses the HTML content of the page, locates the table containing technique information, and extracts both technique and sub-technique IDs (if available).
 
 Requirements
