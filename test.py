@@ -58,8 +58,13 @@ def extract_ids_from_page(url):
         sys.exit(1)
 
 if __name__ == "__main__":
-    # Your existing code to get the URL and extract IDs
-    # ...
+    # Check if the script was run with exactly one argument (the URL)
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <URL>")
+        sys.exit(1)
+    
+    # Get the URL from the first argument provided in the command line
+    url = sys.argv[1]
 
     # Extract technique IDs from the provided URL
     extracted_ids = extract_ids_from_page(url)
